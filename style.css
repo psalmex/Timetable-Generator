@@ -55,7 +55,20 @@ button {
 .container {
   margin: 0px 30px;
 }
+.allcontent {
+  text-align:center;
+  padding: 10px;
+  margin: 10px;
+  /* width: 50%; */
+}
 .content {
   /* border: border-boxing; */
   border-radius: 7px;
+}
+input {
+  margin: 10px;
+  padding: 10px;
+  /* width: 20%; */
+  text-align: left;
+  
 }

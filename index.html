@@ -35,8 +35,48 @@
                 </ul>
 
             </nav>
-            <div>
+            <div class="allcontent">
                 <h2>body content goes here</h2>
+                <div>
+                    <h3>Adding tutors name</h3>
+                    <form>
+                        <label for="fname">Teachers name:</label>
+                        <input type="text" id="fname" name="fname"><br>
+                        <label for="lname">Teachers Id:</label>
+                        <input type="text" id="teachid" name="lname"><br>
+                        <label for="lname">Subject:</label>
+                        <input type="text" id="subj" name="lname"><br>
+                        <label for="lname">Phone no:</label>
+                        <input type="text" id="phone" name="lname"><br>
+                        <label for="lname">Email:</label>
+                        <input type="text" id="email" name="lname">
+                    </form>
+                </div>
+                <div>
+                    <h3>Adding Subject</h3>
+                    <form>
+                        <label for="fname">Subject:</label>
+                        <input type="text" id="fname" name="fname">
+                    </form>
+                </div>
+                <div>
+                    <h3>Assigning teachers</h3>
+                    <form>
+                        <label for="fname">Subject:</label>
+                        <input type="text" id="fname" name="fname"><br>
+                        <label for="teachernumber">Number of teacher (between 1 and 5):</label>
+                        <input type="number" id="teachernumber" name="teachernumber" min="1" max="5">
+                    </form>
+                </div>
+                <div>
+                    <h3>Creating time-table</h3>
+                    <form>
+                        <label for="classesnumber">Number of classes (between 1 and 5):</label>
+                        <input type="number" id="classesnumber" name="classesnumber" min="1"><br>
+                        <label for="teachernumber">Number of teacher (between 1 and 5):</label>
+                        <input type="number" id="teachernumber" name="teachernumber" min="1"><br>
+                    </form>
+                </div>
             </div>
         </div>
 
@@ -201,7 +241,7 @@
     <script src="script.js"></script>
 </body>
 <footer>
-    Time-Table Generator @ccaps &ccaps cc@ 
+    Time-Table Generator @ccaps &ccaps cc@ @&copy @
 </footer>
 
 </html>
