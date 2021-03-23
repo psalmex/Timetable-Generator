@@ -20,7 +20,7 @@ ul {
   display: flex;
   justify-content: space-between;
   list-style-type: none;
-  background-color: #f0f0f0;
+  background-color: hsl(0, 0%, 94%);
   padding: 10px 40px;
   cursor: pointer;
 }
@@ -36,9 +36,9 @@ li a {
   text-decoration: none;
   display: inline;
 }
-li:last :last-child {
+/* li:last :last-child {
   float: right;
-}
+} */
 .active {
   /* background-color: brown; */
   color: #000;
