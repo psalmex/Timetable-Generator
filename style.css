@@ -1,0 +1,79 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+header {
+  text-align: center;
+  background-color: blue;
+  color: #13fc25;
+  border-radius: 7px;
+  margin: 5px;
+}
+body {
+  border-radius: 7px;
+  text-align: center;
+}
+ul {
+  /* position: fixed;
+  top: 0px; */
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  background-color: hsl(0, 0%, 94%);
+  padding: 10px 40px;
+  cursor: pointer;
+}
+li {
+  text-decoration: none;
+  display: inline;
+}
+li a {
+  text-decoration: none;
+  display: inline;
+}
+.active {
+  /* background-color: brown; */
+  color: #000;
+}
+button {
+  background-color: #de3334;
+  color: #fff;
+  width: fit-content;
+  height: 40px;
+  padding: 5px;
+  font-size: 15px;
+  border: none;
+  border-radius: 7px;
+}
+.container {
+  margin: 0px 30px;
+}
+.allcontent {
+  text-align: left;
+  padding: 10px;
+  margin: 50px;
+  /* width: 150%; */
+}
+.content {
+  /* border: border-boxing; */
+  border-radius: 7px;
+}
+input {
+  margin: 10px;
+  padding: 10px;
+  /* width: 20%; */
+  text-align: left;
+}
+.tutorPg {
+  background-image: none;
+  background-color: blue;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid gray;
+}
+.tutorPg button {
+  width: 90px;
+  height: 40px;
+  text-align: center;
+}
