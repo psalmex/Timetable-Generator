@@ -15,7 +15,7 @@
             <p>easy to use</p>
         </header>
         <div class="container">
-            <nav id='kall' class="body">
+            <nav id='navCall' class="body">
                 <ul>
                     <li>
                         <a class="active" href="#home">HOME</a>
@@ -39,39 +39,44 @@
             <div class="allcontent">
                 <h2>body content goes here</h2>
                 <div>
-                    <h3>Adding tutors name</h3>
-                    <form>
-                        <label for="fname">Teachers name:</label>
-                        <input type="text" id="fname" name="fname"><br>
-                        <label for="lname">Teachers Id:</label>
-                        <input type="text" id="teachid" name="lname"><br>
-                        <label for="lname">Subject:</label>
-                        <input type="text" id="subj" name="lname"><br>
-                        <label for="lname">Phone no:</label>
-                        <input type="text" id="phone" name="lname"><br>
-                        <label for="lname">Email:</label>
-                        <input type="text" id="email" name="lname">
-                    </form>
+                    <div class="tutorPg">
+                        <h1>Learning at its convinence</h1>
+                        <h3>Adding tutors name</h3>
+                        <form>
+                            <label for="fname">Teachers name:</label><br>
+                            <input type="text" id="fname" name="fname"><br>
+                            <label for="lname">Teachers Id:</label><br>
+                            <input type="text" id="teachid" name="lname"><br>
+                            <label for="lname">Subject:</label><br>
+                            <input type="text" id="subjTe" name="lname"><br>
+                            <label for="lname">Phone no:</label><br>
+                            <input type="text" id="phone" name="lname"><br>
+                            <label for="lname">Email:</label><br>
+                            <input type="text" id="email" name="lname">
+                        </form>
+                        <button onclick="myFunction()">Enter</button>
+                    </div>
 
                     <form id="teach">
-                        <input type="text" id="subj" name="lname">
-                        <input type="text" name="fname">
-                        
+                        <input type="text" id="subj1" name="lname" value="english">
+                        <input type="text" id="subj2" name="fname" value="maths">
+
                         <input type="submit" onclick="myFunction()" value="Enter">
+                        <button onclick="myFunction()">Enter</button>
                     </form>
                     <button onclick="myFunction()">Enter</button>
 
                     <h3>Subject Teachers details:</h3>
-                    <p id="tutors">maths</p>
+                    <p id="tutor">maths</p>
                 </div>
                 <div>
                     <h3>Adding Subject</h3>
-                    <input type="text" id="subj" name="fname">
+                    <input type="text" id="subjAdd" name="fname">
                     <input type="submit" onclick="return check(x)" value="add">
                     <!-- <p id="subj">maths</p> -->
                     <form>
                         <label for="fname">Subject:</label>
-                        <input type="text" id="fname" name="fname">
+                        <input type="text" id="sname" name="fname">
                     </form>
 
                     <h3>Subjects offered are:</h3>
@@ -81,7 +86,7 @@
                     <h3>Assigning teachers</h3>
                     <form>
                         <label for="fname">Subject:</label>
-                        <input type="text" id="fname" name="fname"><br>
+                        <input type="text" id="nameAssign" name="fname"><br>
                         <label for="teachernumber">Number of teacher (between 1 and 5):</label>
                         <input type="number" id="teachernumber" name="teachernumber" min="1" max="5">
                     </form>
